@@ -1,6 +1,6 @@
 #NoEnv
 SetWorkingDir %A_ScriptDir%
-CoordMode, Mouse, Screen
+CoordMode, Mouse, Window
 SendMode Input
 #SingleInstance Force
 SetTitleMatchMode 2
@@ -8,7 +8,7 @@ SetTitleMatchMode 2
 SetControlDelay 1
 SetWinDelay 0
 SetKeyDelay -1
-SetMouseDelay 100
+SetMouseDelay 1
 SetBatchLines -1
 
 
