@@ -1,6 +1,6 @@
 #NoEnv
 SetWorkingDir %A_ScriptDir%
-CoordMode, Mouse, Window
+CoordMode, Mouse, Screen
 SendMode Input
 #SingleInstance Force
 SetTitleMatchMode 2
@@ -8,7 +8,7 @@ SetTitleMatchMode 2
 SetControlDelay 1
 SetWinDelay 0
 SetKeyDelay -1
-SetMouseDelay 1
+SetMouseDelay 100
 SetBatchLines -1
 
 
@@ -189,7 +189,7 @@ Loop
         Sleep, 800
         Click, 739, 450 Left, 1  ; Auto
         Sleep, 800
-        Loop, 4400000
+        Loop, 3380
         {
             Click, 857, 400 Left, 1
             Sleep, 7
@@ -241,7 +241,7 @@ Loop
             Sleep, 260
         }
     }
-    Loop, 8  ; DRCMightRun_3_MS+
+    Loop, 5  ; DRCMightRun_3_MS+
     {
         Sleep, 6500
         Click, 444, 219 Left, 1  ; OTHER
@@ -279,12 +279,11 @@ Loop
             Click, 816, 318 Left, 1
             Sleep, 120
         }
-        /*
-        Click, 832, 263 Left, 1  ; +10k Button
-        Sleep, 850
         Click, 439, 177 Left, 1  ; TRAIN
         Sleep, 850
         Click, 647, 219 Left, 1  ; Skills tab
+        Sleep, 850
+        Click, 832, 263 Left, 1  ; +10k Button
         Sleep, 850
         Loop, 2
         {
@@ -298,7 +297,6 @@ Loop
             Click, 800, 400 Left, 1
             Sleep, 850
         }
-        */
         Click, 444, 219 Left, 1  ; OTHER
         Sleep, 850
         Click, 641, 210 Left, 1  ; Settings
@@ -333,7 +331,7 @@ Loop
         Sleep, 800
         Click, 739, 450 Left, 1  ; Auto
         Sleep, 800
-        Loop, 3000000
+        Loop, 2284
         {
             Click, 857, 400 Left, 1
             Sleep, 7
@@ -360,7 +358,7 @@ Loop
         Sleep, 800
         Click, 739, 450 Left, 1  ; Auto
         Sleep, 800
-        Loop, 900000
+        Loop, 685
         {
             Click, 857, 400 Left, 1
             Sleep, 7
@@ -412,7 +410,7 @@ Loop
         Sleep, 800
         Click, 739, 450 Left, 1  ; Auto
         Sleep, 800
-        Loop, 1800000
+        Loop, 1370
         {
             Click, 857, 400 Left, 1
             Sleep, 7
@@ -503,7 +501,7 @@ Loop
         Sleep, 800
         Click, 739, 450 Left, 1  ; Auto
         Sleep, 800
-        Loop, 100000
+        Loop, 75
         {
             Click, 857, 400 Left, 1
             Sleep, 7
